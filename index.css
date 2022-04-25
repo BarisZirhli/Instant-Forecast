@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+body {
+  color: #fff;
+  font-family: "montserrat", sans-serif;
+  background-position: center;
+  background-color: rgb(80, 79, 79);
+  height: 100vh;
+}
+input {
+  width: 30%;
+  height: 40px;
+  border-radius: 0.2pc;
+  padding: 7px;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid #fff;
+  padding: 30px;
+}
+.container {
+  padding: 150px 0px 0px 0px;
+}
+.content {
+  padding: 30px 0px 0px 0px;
+  color: rgba(0, 0, 0, 0.863);
+  font-size: 50px;
+}
+h1 {
+  font-size: 70px;
+}
+input[type="text"]:focus {
+  border: 3px solid rgb(129, 154, 161);
+  border-radius: 5px;
+}
